@@ -9,21 +9,21 @@ Institut d'Enseignement Supérieur de Ruhengeri (INES-Ruhengeri).
 |---|---|
 | Group number | G08 |
 | Group code (used with `--group`) | AI-G08 |
-| Group verification code | <<CODE>> |
+| Group verification code | AI-G08 |
 | Group leader | AISHA |
 | GitHub repository | https://github.com/lavi041/AI_A1_G08 |
-| Final commit hash | <<HASH>> |
-| Dataset SHA-256 | <<paste the value printed by `run_all.py`>> |
+| Final commit hash | 2a232e4 |
+| Dataset SHA-256 | 5e62155fd4a2c78a98b3fd659c3a6826cae93e565994c6f9e689d270e8498fe7 |
 
 ### Members and roles
 
 | Member | Name | Registration no. | Role |
 |---|---|---|---|
-| 1 | <<NAME>> | <<REG>> | Data and UX lead |
-| 2 | <<NAME>> | <<REG>> | Regression engineer |
-| 3 | <<NAME>> | <<REG>> | Classification engineer |
-| 4 | <<NAME>> | <<REG>> | Clustering and QA engineer |
-| 5 | <<NAME>> | <<REG>> | Reproducibility and release lead |
+| 1 | Aisha Niyonsaba | 25/27104 | Data and UX lead |
+| 2 | Manzi Kassimu | 25/27935 | Regression engineer |
+| 3 | Ineza Iwacu Adelphine | 25/27676 | Classification engineer |
+| 4 | Ishimwe Sumaya | 25/27949 | Clustering and QA engineer |
+| 5 | Mahgoub Adil Ahmed Alhassan | 25/28013 | Reproducibility and release lead |
 
 ## 2. Tested environment
 
