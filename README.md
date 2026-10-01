@@ -7,11 +7,11 @@ Institut d'Enseignement Supérieur de Ruhengeri (INES-Ruhengeri).
 
 | Item | Value |
 |---|---|
-| Group number | <<GXX>> |
-| Group code (used with --group) | <<AI-GXX>> |
+| Group number | G08 |
+| Group code (used with --group) | AI-G08 |
 | Group verification code | <<CODE>> |
 | Group leader | <<NAME>> |
-| GitHub repository | <<URL>> |
+| GitHub repository | https://github.com/lavi041/AI_A1_G08 |
 | Final commit hash | <<HASH>> |
 | Dataset SHA-256 | <<paste the value printed by run_all.py>> |
 
