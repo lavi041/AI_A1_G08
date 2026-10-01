@@ -1,0 +1,14 @@
+{
+  "model_version": "1.0.0",
+  "group_code": "AI-G08",
+  "seed": 42,
+  "dataset_sha256": "5e62155fd4a2c78a98b3fd659c3a6826cae93e565994c6f9e689d270e8498fe7",
+  "feature_names": [
+    "plot_area_ha",
+    "rainfall_mm",
+    "soil_ph",
+    "seed_kg",
+    "distance_km",
+    "arrival_hour"
+  ]
+}

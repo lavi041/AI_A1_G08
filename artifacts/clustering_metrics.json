@@ -1,0 +1,66 @@
+{
+  "seed": 42,
+  "k_range_tested": [
+    2,
+    5
+  ],
+  "k_values_evaluated": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "silhouette_scores": {
+    "2": 0.2230526500885027,
+    "3": 0.19578486519941415,
+    "4": 0.1883324027806862,
+    "5": 0.17534268113198637
+  },
+  "inertia": {
+    "2": 445.85331384934085,
+    "3": 387.4259195643598,
+    "4": 345.0685380418491,
+    "5": 313.1912936804608
+  },
+  "selected_k": 2,
+  "selected_silhouette": 0.2230526500885027,
+  "justification": "k=2 was selected because it has the highest silhouette score (0.223) among the tested values [2, 3, 4, 5]. The next best was k=3 (0.196). The best silhouette is below 0.25, so the cluster structure is weak and the groups should be read with extra caution.",
+  "n_samples": 100,
+  "cluster_sizes": {
+    "0": 53,
+    "1": 47
+  },
+  "cluster_feature_means": {
+    "0": {
+      "plot_area_ha": 3.6775,
+      "rainfall_mm": 974.9189,
+      "soil_ph": 6.3508,
+      "seed_kg": 87.1528,
+      "distance_km": 23.6906,
+      "arrival_hour": 14.5755
+    },
+    "1": {
+      "plot_area_ha": 1.5468,
+      "rainfall_mm": 1023.4915,
+      "soil_ph": 6.2698,
+      "seed_kg": 35.2191,
+      "distance_km": 21.6979,
+      "arrival_hour": 12.5979
+    }
+  },
+  "features_used": [
+    "plot_area_ha",
+    "rainfall_mm",
+    "soil_ph",
+    "seed_kg",
+    "distance_km",
+    "arrival_hour"
+  ],
+  "excluded_from_clustering": [
+    "record_id",
+    "actual_yield_kg",
+    "dispatch_attention"
+  ],
+  "scaler_fitted_on": "all rows (unsupervised, input features only)",
+  "interpretation_caution": "Clusters are statistical groupings of the input features only. They are not verified real-world categories and should be reviewed by cooperative staff before any operational use."
+}

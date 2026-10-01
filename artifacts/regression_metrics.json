@@ -1,0 +1,31 @@
+{
+  "seed": 42,
+  "test_size": 0.2,
+  "learning_rate": 0.1,
+  "epochs": 2000,
+  "n_train": 80,
+  "n_test": 20,
+  "loss_definition": "1/(2n)*sum((pred-y)^2) on standardized target",
+  "initial_loss": 0.5000000000000001,
+  "final_loss": 0.010660133242604324,
+  "weights_standardized": {
+    "bias": -2.896294315490883e-16,
+    "plot_area_ha": 0.8380194473590944,
+    "rainfall_mm": 0.09710566003875622,
+    "soil_ph": 0.061918752081693444,
+    "seed_kg": 0.14695084829784336,
+    "distance_km": -0.057266136076241085,
+    "arrival_hour": -0.036557717478484575
+  },
+  "train_metrics": {
+    "MAE": 160.7172850920458,
+    "RMSE": 196.2386928243352,
+    "R2": 0.9786797351038452
+  },
+  "test_metrics": {
+    "MAE": 176.63054585318176,
+    "RMSE": 212.57912725047515,
+    "R2": 0.9779021201682464
+  },
+  "scalers_fitted_on": "training split only"
+}
